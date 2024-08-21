@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+  padding: 0;
+  margin: 0;
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .new {
+    position: relative;
+    right: 50%;
+  }
+
+  main {
+    display: block;
+    color: hsl(217, 12%, 63%);
+    border-radius: 1.5em;
+    padding: 2.5em;
+    margin: 2em;
+    margin-top: 10em;
+
+    background-color: hsl(213, 19%, 18%);
+    position: relative;
+    height: 25em;
+  }
+  main header #heading {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: hsl(0, 0%, 100%);
+  }
+
+  main #para {
+    font-size: 15px;
+    font-family: "Overpass", sans-serif;
+  }
+
+  main ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 3px 0 7px 0;
+    margin-bottom: 2em;
+  }
+
+  main ul .li {
+    list-style-type: none;
+
+    border-radius: 100%;
+    padding: 1em;
+    font-family: "Overpass", sans-serif;
+    font-size: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .active-li {
+    background-color: white;
+    color: hsl(216, 12%, 8%);
+  }
+
+  .inactive {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+  }
+  main #btn {
+    width: 72%;
+    padding: 10px;
+    position: absolute;
+    left: 15%;
+    margin-bottom: 5em;
+    border-radius: 1.5em;
+    border: none;
+    text-transform: uppercase;
+    background-color: hsl(25, 97%, 53%);
+    font-family: "Overpass", sans-serif;
+    color: hsl(216, 12%, 8%);
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  section {
+    display: none;
+    color: hsl(217, 12%, 63%);
+    border-radius: 1.5em;
+    padding: 2.5em;
+    margin: 2em;
+
+    margin-bottom: 7em;
+    background-color: hsl(213, 19%, 18%);
+    position: relative;
+    top: -25em;
+    height: 25em;
+  }
+
+  svg {
+    position: absolute;
+    left: 25%;
+  }
+
+  #thankyou-wrapper {
+    display: block;
+    text-align: center;
+
+    margin-top: 2em;
+  }
+
+  #thankyou-wrapper #thankyou-header {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: hsl(0, 0%, 100%);
+  }
+
+  #thankyou-wrapper #thankyou-text {
+    font-size: 15px;
+    font-family: "Overpass", sans-serif;
+  }
+  .attribution {
+    color: white;
+    padding: 1em;
+  }
+
+  .attribution a {
+    text-decoration: none;
+    color: grey;
+    font-family: "Overpass", sans-serif;
+  }
+
+  #content-para {
+    text-align: center;
+    padding: 0.3em;
+    background-color: hsl(210, 2%, 16%);
+    color: hsl(25, 97%, 53%);
+    font-family: "Overpass", sans-serif;
+    /* position: absolute;
+    top: 42%;
+    left: 15%; */
+    margin: 0 auto;
+    margin-top: 9em;
+    border-radius: 1.5em;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .new {
+    position: relative;
+    right: 50%;
+  }
+
+  main {
+    display: block;
+    color: hsl(217, 12%, 63%);
+    border-radius: 1.5em;
+    padding: 3em;
+    margin: 0 auto;
+    margin-top: 10em;
+    background-color: hsl(213, 19%, 18%);
+    position: relative;
+    height: 30em;
+    width: 50%;
+  }
+  main header #heading {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+  }
+
+  main #para {
+    font-size: 15px;
+    font-family: "Overpass", sans-serif;
+    margin-bottom: 4em;
+  }
+
+  main ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 3px 0 7px 0;
+    margin-bottom: 2em;
+  }
+
+  main ul .li {
+    list-style-type: none;
+
+    border-radius: 100%;
+    padding: 1em;
+    font-family: "Overpass", sans-serif;
+    font-size: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .active-li {
+    background-color: white;
+    color: hsl(216, 12%, 8%);
+  }
+
+  .inactive {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+  }
+  main #btn {
+    width: 72%;
+    padding: 10px;
+    position: absolute;
+    left: 15%;
+    margin-top: 3em;
+    border-radius: 1.5em;
+    border: none;
+    text-transform: uppercase;
+    background-color: hsl(25, 97%, 53%);
+    font-family: "Overpass", sans-serif;
+    color: hsl(216, 12%, 8%);
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  section {
+    display: none;
+    color: hsl(217, 12%, 63%);
+    border-radius: 1.5em;
+    padding: 3em;
+    margin: 0 auto;
+    margin-top: 10em;
+    background-color: hsl(213, 19%, 18%);
+    position: relative;
+    height: 30em;
+    width: 50%;
+    position: relative;
+    top: -40em;
+  }
+
+  svg {
+    position: absolute;
+    left: 30%;
+  }
+
+  #thankyou-wrapper {
+    display: block;
+    text-align: center;
+
+    margin-top: 2em;
+  }
+
+  #thankyou-wrapper #thankyou-header {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: hsl(0, 0%, 100%);
+  }
+
+  #thankyou-wrapper #thankyou-text {
+    font-size: 15px;
+    font-family: "Overpass", sans-serif;
+  }
+  .attribution {
+    color: white;
+    padding: 1em;
+  }
+
+  .attribution a {
+    text-decoration: none;
+    color: grey;
+    font-family: "Overpass", sans-serif;
+  }
+
+  #content-para {
+    text-align: center;
+    padding: 0.3em;
+    background-color: hsl(210, 2%, 16%);
+    color: hsl(25, 97%, 53%);
+    font-family: "Overpass", sans-serif;
+    /* position: absolute;
+    top: 42%;
+    left: 15%; */
+    margin: 0 auto;
+    margin-top: 9em;
+    border-radius: 1.5em;
+    width: 90%;
+  }
+}
