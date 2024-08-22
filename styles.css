@@ -302,11 +302,11 @@ body {
     border-radius: 1.5em;
     padding: 3em;
     margin: 0 auto;
-    margin-top: 10em;
+    margin-top: 5em;
     background-color: hsl(213, 19%, 18%);
     position: relative;
     height: 40em;
-    width: 50%;
+    width: 40%;
   }
   main header #heading {
     font-family: "Overpass", sans-serif;
@@ -366,20 +366,24 @@ body {
     font-weight: 700;
     letter-spacing: 2px;
   }
-
+  main #btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: hsl(216, 12%, 8%);
+  }
   section {
     display: none;
     color: hsl(217, 12%, 63%);
     border-radius: 1.5em;
     padding: 3em;
     margin: 0 auto;
-    margin-top: 10em;
+    margin-top: 5em;
     background-color: hsl(213, 19%, 18%);
     position: relative;
     height: 40em;
-    width: 50%;
+    width: 40%;
     position: relative;
-    top: -50em;
+    top: -45em;
   }
 
   svg {

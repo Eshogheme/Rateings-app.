@@ -68,6 +68,7 @@ fifthLi.addEventListener("click", (e: Event) => {
 
 btn.addEventListener("click", (e: Event) => {
   e.preventDefault();
+
   if (firstLi.classList.contains("active-li")) {
     page2.style.display = "block";
     contentPara.innerText = `You selected  ${firstLi.textContent}  out of 5`;
